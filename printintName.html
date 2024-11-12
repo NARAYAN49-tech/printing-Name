@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1></h1>
+    <script>
+      alert("Hey there i am alert");
+      let prm = prompt("What's your name bro", "Narayan Suryawanshi");
+      let header = document.querySelector("h1");
+      header.innerText = prm;
+      header.style.fontFamily = "Verdana";
+      header.style.fontSize = "30px";
+      header.style.color = "#984632";
+      console.log(header, header.length);
+      alert("This is TOO much");
+      let title = document.querySelector("title");
+      title.innerText = prm;
+      let twice = prm.repeat(20);
+      console.log(twice);
+      document.write("Hacked");
+      twice.style.color = "blue";
+    </script>
+  </body>
+</html>
